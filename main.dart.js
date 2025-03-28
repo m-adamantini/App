@@ -8081,7 +8081,7 @@ f=J
 s=4
 return A.B(A.e_(),$async$Md)
 case 4:s=3
-return A.B(l.a28(k,j.ac([i,"Token "+h.l(g.bQ(f.az(b.a,"auth_token")))],n,n)),$async$Md)
+return A.B(l.a28(k,j.ac([i,"Token "+h.l(g.bQ(f.az(b.a,"auth_token"))),"X-APP-KEY","grtdvjiv476!de?"],n,n)),$async$Md)
 case 3:m=b
 n=m.b
 p=m.e
@@ -8107,7 +8107,7 @@ f=J
 s=4
 return A.B(A.e_(),$async$zU)
 case 4:s=3
-return A.B(l.a28(k,j.ac([i,"Token "+h.l(g.bQ(f.az(b.a,"auth_token")))],n,n)),$async$zU)
+return A.B(l.a28(k,j.ac([i,"Token "+h.l(g.bQ(f.az(b.a,"auth_token"))),"X-APP-KEY","grtdvjiv476!de?"],n,n)),$async$zU)
 case 3:m=b
 n=m.b
 p=m.e
@@ -8129,7 +8129,7 @@ return A.B(A.e_(),$async$M9)
 case 3:o=l.bQ(k.az(c.a,"auth_token"))
 n=A.dd("https://api.dekoworld.dev/api/casse/")
 m=t.N
-m=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json"],m,m)
+m=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],m,m)
 s=4
 return A.B(A.a2e(n,B.ar.ju(a.h5()),m),$async$M9)
 case 4:p=c
@@ -8154,7 +8154,7 @@ h=J
 s=4
 return A.B(A.e_(),$async$Mb)
 case 4:s=3
-return A.B(n.aEQ(m,l.ac([k,"Token "+j.l(i.bQ(h.az(c.a,"auth_token"))),"Content-Type","application/json"],p,p)),$async$Mb)
+return A.B(n.aEQ(m,l.ac([k,"Token "+j.l(i.bQ(h.az(c.a,"auth_token"))),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],p,p)),$async$Mb)
 case 3:o=c
 p=o.b
 if(p===204){q=!0
@@ -8175,7 +8175,7 @@ k=A
 j=J
 s=3
 return A.B(A.e_(),$async$Me)
-case 3:o=n.ac([m,"Token "+l.l(k.bQ(j.az(d.a,"auth_token"))),"Content-Type","application/json"],o,o)
+case 3:o=n.ac([m,"Token "+l.l(k.bQ(j.az(d.a,"auth_token"))),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],o,o)
 s=4
 return A.B(A.aEG(p,B.ar.ju(b.h5()),o),$async$Me)
 case 4:q=d.b===200
@@ -8192,7 +8192,7 @@ return A.B(A.e_(),$async$Ma)
 case 3:o=l.bQ(k.az(c.a,"auth_token"))
 n=A.dd("https://api.dekoworld.dev/api/container/")
 m=t.N
-m=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json"],m,m)
+m=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],m,m)
 s=4
 return A.B(A.a2e(n,B.ar.ju(a.h5()),m),$async$Ma)
 case 4:p=c
@@ -8217,7 +8217,7 @@ h=J
 s=4
 return A.B(A.e_(),$async$Mc)
 case 4:s=3
-return A.B(n.aEQ(m,l.ac([k,"Token "+j.l(i.bQ(h.az(c.a,"auth_token"))),"Content-Type","application/json"],p,p)),$async$Mc)
+return A.B(n.aEQ(m,l.ac([k,"Token "+j.l(i.bQ(h.az(c.a,"auth_token"))),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],p,p)),$async$Mc)
 case 3:o=c
 p=o.b
 if(p===204){q=!0
@@ -8238,7 +8238,7 @@ k=A
 j=J
 s=3
 return A.B(A.e_(),$async$Mf)
-case 3:o=n.ac([m,"Token "+l.l(k.bQ(j.az(d.a,"auth_token"))),"Content-Type","application/json"],o,o)
+case 3:o=n.ac([m,"Token "+l.l(k.bQ(j.az(d.a,"auth_token"))),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],o,o)
 s=4
 return A.B(A.aEG(p,B.ar.ju(b.h5()),o),$async$Mf)
 case 4:q=d.b===200
@@ -8257,7 +8257,7 @@ return A.B(A.e_(),$async$CB)
 case 3:l=i.bQ(h.az(b.a,"auth_token"))
 k=t.N
 s=4
-return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/customers/"),A.ac(["Authorization","Token "+A.l(l)],k,k)),$async$CB)
+return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/customers/"),A.ac(["Authorization","Token "+A.l(l),"X-APP-KEY","grtdvjiv476!de?"],k,k)),$async$CB)
 case 4:j=b
 k=j.b
 A.e3("\ud83d\udce2 Risposta API (Status Code): "+k)
@@ -8283,7 +8283,7 @@ return A.B(A.e_(),$async$CC)
 case 3:p=m.bQ(l.az(c.a,"auth_token"))
 o=t.N
 s=4
-return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/orders/?search="+a),A.ac(["Authorization","Token "+A.l(p)],o,o)),$async$CC)
+return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/orders/?search="+a),A.ac(["Authorization","Token "+A.l(p),"X-APP-KEY","grtdvjiv476!de?"],o,o)),$async$CC)
 case 4:n=c
 if(n.b===200){o=J.hc(B.ar.cw(0,A.hb(A.ha(n.e).c.a.h(0,"charset")).cw(0,n.w)),new A.afN(),t._5)
 q=A.a4(o,!0,o.$ti.i("au.E"))
@@ -8300,7 +8300,7 @@ return A.B(A.e_(),$async$PA)
 case 3:p=m.bQ(l.az(c.a,"auth_token"))
 o=t.N
 s=4
-return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/customers_all/?search="+a),A.ac(["Authorization","Token "+A.l(p)],o,o)),$async$PA)
+return A.B(A.a28(A.dd("https://api.dekoworld.dev/api/customers_all/?search="+a),A.ac(["Authorization","Token "+A.l(p),"X-APP-KEY","grtdvjiv476!de?"],o,o)),$async$PA)
 case 4:n=c
 o=n.b
 if(o===200){q=A.aGr(J.az(B.ar.cw(0,A.hb(A.ha(n.e).c.a.h(0,"charset")).cw(0,n.w)),0))
@@ -47067,7 +47067,7 @@ atk(a,b){var s=0,r=A.I(t.y),q,p,o,n,m,l,k,j
 var $async$mg=A.J(function(c,d){if(c===1)return A.F(d,r)
 while(true)switch(s){case 0:m=A.dd("https://api.dekoworld.dev/api/login/")
 l=t.N
-k=A.ac(["Content-Type","application/json"],l,l)
+k=A.ac(["Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],l,l)
 s=3
 return A.B(A.a2e(m,B.ar.p7(A.ac(["username",a,"password",b],l,l),null),k),$async$mg)
 case 3:j=d
@@ -47140,7 +47140,7 @@ return A.B(p.pX(),$async$vW)
 case 3:o=d
 n=A.dd("https://api.dekoworld.dev/api/change-password/")
 m=t.N
-l=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json"],m,m)
+l=A.ac(["Authorization","Token "+A.l(o),"Content-Type","application/json","X-APP-KEY","grtdvjiv476!de?"],m,m)
 s=4
 return A.B(A.a2e(n,B.ar.p7(A.ac(["old_password",a,"new_password",b],m,m),null),l),$async$vW)
 case 4:q=d.b===200
@@ -47157,7 +47157,7 @@ s=o!=null?3:4
 break
 case 3:p=t.N
 s=5
-return A.B(A.a2e(A.dd("https://api.dekoworld.dev/api/logout/"),null,A.ac(["Authorization","Token "+o],p,p)),$async$pC)
+return A.B(A.a2e(A.dd("https://api.dekoworld.dev/api/logout/"),null,A.ac(["Authorization","Token "+o,"X-APP-KEY","grtdvjiv476!de?"],p,p)),$async$pC)
 case 5:case 4:s=7
 return A.B(A.e_(),$async$pC)
 case 7:s=6
@@ -47214,7 +47214,7 @@ n=B.ar.p7(A.ac(["data_consegna",p],o,t.ob),null)
 A.e3("\ud83d\udce4 Dati inviati a Django per aggiornare il prodotto:")
 A.e3(n)
 s=4
-return A.B(A.aEF(A.dd("https://api.dekoworld.dev/api/orders/"+a.a+"/"),n,A.ac(["Content-Type","application/json","Authorization","Token "+A.l(l)],o,o)),$async$y3)
+return A.B(A.aEF(A.dd("https://api.dekoworld.dev/api/orders/"+a.a+"/"),n,A.ac(["Content-Type","application/json","Authorization","Token "+A.l(l),"X-APP-KEY","grtdvjiv476!de?"],o,o)),$async$y3)
 case 4:m=c
 if(m.b===200){A.e3("\u2705 Prodotto aggiornato con successo.")
 q=!0
@@ -47234,7 +47234,7 @@ return A.B(A.e_(),$async$tH)
 case 7:m=a0
 l=A.bQ(J.az(m.a,"auth_token"))
 i=t.N
-h=A.ac(["Content-Type","application/json","Accept","application/json","Authorization","Token "+A.l(l)],i,i)
+h=A.ac(["Content-Type","application/json","Accept","application/json","Authorization","Token "+A.l(l),"X-APP-KEY","grtdvjiv476!de?"],i,i)
 g=a.as
 if(a.z!=null){f=A.Mv("yyyy-MM-dd")
 e=a.z
@@ -47277,7 +47277,7 @@ return A.B(A.e_(),$async$y_)
 case 7:m=d
 l=A.bQ(J.az(m.a,"auth_token"))
 i=t.N
-h=A.ac(["Content-Type","application/json","Accept","application/json","Authorization","Token "+A.l(l)],i,i)
+h=A.ac(["Content-Type","application/json","Accept","application/json","Authorization","Token "+A.l(l),"X-APP-KEY","grtdvjiv476!de?"],i,i)
 s=8
 return A.B(A.aEF(n,B.ar.p7(A.ac(["note_cliente",b],i,i),null),h),$async$y_)
 case 8:k=d
@@ -47316,7 +47316,7 @@ h=A
 g=J
 s=3
 return A.B(A.e_(),$async$pQ)
-case 3:n=m.ac([l,k,j,"Token "+i.l(h.bQ(g.az(d.a,"auth_token")))],o,o)
+case 3:n=m.ac([l,k,j,"Token "+i.l(h.bQ(g.az(d.a,"auth_token"))),"X-APP-KEY","grtdvjiv476!de?"],o,o)
 s=4
 return A.B(A.aEF(p,B.ar.p7(A.ac(["specifiche",b],o,t.yp),null),n),$async$pQ)
 case 4:o=d.b
